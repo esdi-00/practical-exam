@@ -1,0 +1,11 @@
+<?xml version= "1.0" ?>
+<project name = "Circle-Ellipse Project" default ="info">
+    <target name ="info">
+        <echo>Hello Circle-Ellipse - Welcome to Apache Ant!</echo>
+    </target>
+</project>
+
+<fileset dir="${java}" casesensitive="no">
+    <include name ="**/*.java"/>
+</fileset>
+
